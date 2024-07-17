@@ -1,0 +1,46 @@
+body, html, h1,h2,h3,h4,h5,h6,p {    
+    margin: 0;    
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section.contact{
+    background-color: #FCEAE9;
+    height: 400px;  
+    margin: auto auto;  
+    display: flex;        
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper {             
+    margin: auto auto;   
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    gap: 25px;
+}
+.wrapper h1{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.wrapper p{
+    font-size: 18px;    
+}
+.wrapper input{
+    padding: 13px 13px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.wrapper button{
+    padding: 15px 15px;
+    border: none;
+    width: 120px;    
+    background-color: #FF3986;
+    border-radius: 7px 7px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
